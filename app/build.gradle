@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion Integer.parseInt(project.ANDROID_COMPILE_SDK_VERSION)
 
@@ -70,11 +70,14 @@ dependencies {
     implementation project(path: ':chat-sdk-ui')
     implementation project(path: ':chat-sdk-firebase-adapter')
     implementation project(path: ':chat-sdk-firebase-push')
+
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
     implementation project(path: ':chat-sdk-firebase-file-storage')
     implementation project(path: ':chat-sdk-firebase-ui')
     implementation project(path: ':chat-sdk-profile-pictures')
     compile project(path: ':chat-sdk-micro')
     compile project(path: ':chat-sdk-firestore-adapter')
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
 }
 
 apply plugin: 'com.google.gms.google-services'
