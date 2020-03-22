@@ -16,16 +16,16 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('release.keystore')
-            keyAlias 'androidreleasekey'
-            storePassword 'R3l3ase123!'
-            keyPassword 'R3l3ase123!'
+            storeFile file('MyStore.jks')
+            keyAlias 'keyHosinox'
+            storePassword 'tarekjmil'
+            keyPassword 'tarekjmil'
         }
         debug {
-            keyAlias 'androiddebugkey'
-            keyPassword 'D3bug123'
-            storeFile file('debug.keystore')
-            storePassword 'D3bug123'
+            keyAlias 'keyHosinox'
+            keyPassword 'tarekjmil'
+            storeFile file('MyStore.jks')
+            storePassword 'tarekjmil'
         }
     }
 

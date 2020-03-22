@@ -13,8 +13,8 @@
     <color name="text_primary">@android:color/white</color>
     <color name="window_background">@android:color/background_light</color>
 
-    <color name="login_button_color">#1c93db</color>
-    <color name="register_button_color">#78b737</color>
+    <color name="login_button_color">#3a8004</color>
+    <color name="register_button_color">#94291b</color>
     <color name="anonymous_button_color">#aaaaaa</color>
     <color name="reset_password_button_color">#ffffff</color>
     <color name="logout_button_color">#ae2020</color>

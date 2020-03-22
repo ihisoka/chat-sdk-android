@@ -52,14 +52,17 @@ public class AppObj extends MultiDexApplication {
 
 //            config.firebaseRootPath("local_test_19");
             config.firebaseRootPath("live_12_19");
-            config.googleMaps("AIzaSyCwwtZrlY9Rl8paM0R6iDNBEit_iexQ1aE");
+            //hosinox api
+            config.googleMaps("AIzaSyA0m3447krciTPOZS2D_gscQDyV-6aTJNM");
             config.publicRoomCreationEnabled(true);
             config.pushNotificationSound("default");
             config.pushNotificationsForPublicChatRoomsEnabled(false);
 //            config.messagesToLoadPerBatch(10);
-
             config.twitterLogin("Kqprq5b6bVeEfcMAGoHzUmB3I", "hPd9HCt3PLnifQFrGHJWi6pSZ5jF7kcHKXuoqB8GJpSDAlVcLq");
-            config.googleLogin("1088435112418-e3t77t8jl2ucs8efeqs72o696in8soui.apps.googleusercontent.com");
+
+
+//          hosinox api
+            config.googleLogin("292980472277-suskfdid31i1mrnrfgeedp4f3odrik9a.apps.googleusercontent.com");
 
             // For the demo version of the client expire rooms after 24 hours
             config.publicChatRoomLifetimeMinutes(60 * 24);
